@@ -1,0 +1,9 @@
+
+.*
+db.sqlite3
+media/
+venv
+
+
+!media/profiles/profile.png
+!.gitignore

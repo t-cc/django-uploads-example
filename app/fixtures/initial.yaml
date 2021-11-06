@@ -1,0 +1,8 @@
+- model: app.FileUploadModel
+  pk: 1
+  fields:
+    name: 'one'
+- model: app.FileUploadModel
+  pk: 2
+  fields:
+    name: 'two'

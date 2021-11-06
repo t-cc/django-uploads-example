@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block main %}
+    <ul>
+        {% for file in upload_list %}
+            <li>
+                <a href="{% url 'upload-form' file.pk %}">
+                    <img src="{{ file.avatar.url }}" width="100" />
+                    {{ file.name }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
